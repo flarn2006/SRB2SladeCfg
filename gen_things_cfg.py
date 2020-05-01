@@ -1,3 +1,12 @@
+# This script will try to extract the Things data from the SRB2 Zone Builder config file and put it in SLADE's format.
+# The config file is available at: https://github.com/STJr/SRB2/blob/master/extras/conf/SRB2-22.cfg
+
+# NOTE: This script is written in a very quick-and-dirty way, based on the layout of the current version of the config file.
+# Assumptions are made about the indentation and parameter order, and as a result, it might not be compatible with future
+# versions of the Zone Builder config file, even ones made for the same version of Zone Builder.
+# I didn't write this script to be maintainable forever, but rather just to accomplish the task I needed in the simplest
+# way I could think of. If you're wondering why I'm posting it here despite that...well, why not? Maybe it'll be useful.
+
 colors = ['{0, 0, 0}', '{0, 0, 170}', '{0, 170, 0}', '{0, 170, 170}', '{170, 0, 0}', '{170, 0, 170}', '{170, 85, 0}', '{170, 170, 170}',
 	'{85, 85, 85}', '{85, 85, 255}', '{85, 255, 85}', '{85, 255, 255}', '{255, 85, 85}', '{255, 85, 255}', '{255, 255, 85}', '{255, 255, 255}',
 	'{255, 170, 255}', '{255, 160, 0}', '{255, 210, 0}', '{255, 253, 208}']
