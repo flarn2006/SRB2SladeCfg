@@ -1,0 +1,1 @@
+I'm using Zone Builder now that I know [how to get it running on Linux](https://wiki.srb2.org/wiki/Zone_Builder_tutorial/Getting_started#Linux), so I don't expect to use this anymore or add anything to it.
